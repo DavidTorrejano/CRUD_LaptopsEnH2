@@ -1,6 +1,6 @@
 # CRUD_LaptopsEnH2
 
-## In this CRUD I am starting to learns how to use Spring framework and Spring Boot, this is a simple Crud, where we can store "Laptops", and do all
+## In this CRUD I am starting to learn how to use Spring framework and Spring Boot, this is a simple Crud, where we can store "Laptops", and do all
 ## CRUD operations.
 
 # HAVE A NICE DAY!
