@@ -6,7 +6,6 @@ import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.print.Book;
 import java.util.List;
 import java.util.Optional;
 
@@ -39,7 +38,7 @@ public class LaptopController {
     // Crea una laptop en DB
     @Operation(summary = "Crear una laptop en BD")
     @PostMapping("/api/laptops")
-    public Laptop guardarLaptop (@RequestBody Laptop laptop){
+    public Laptop crearLaptop(@RequestBody Laptop laptop){
         return laptopRepository.save(laptop);
     }
 
